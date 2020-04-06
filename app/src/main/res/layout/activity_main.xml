@@ -5,20 +5,6 @@
     android:layout_height="wrap_content">
 
     <EditText
-        android:id="@+id/Address"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/lastName"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-
-        android:ems="10"
-        android:hint="Οδός Αριθμός Πόλη"
-        android:inputType="textPersonName" />
-
-    <EditText
         android:id="@+id/smsTo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,7 +19,8 @@
         android:hint="Νούμερο για SMS"
         android:inputType="textPersonName"
         android:text="Sms στο 13303"
-        android:textAlignment="center" />
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark" />
 
     <EditText
         android:id="@+id/firstName"
@@ -42,7 +29,7 @@
         android:layout_below="@+id/smsTo"
         android:layout_alignParentTop="false"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:ems="10"
         android:hint="Όνομα..."
         android:inputType="textPersonName" />
@@ -60,6 +47,20 @@
 
         android:ems="10"
         android:hint="Επώνυμο..."
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/Address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:ems="10"
+        android:hint="Οδός Αριθμός Πόλη"
         android:inputType="textPersonName" />
 
     <RadioGroup
@@ -106,7 +107,7 @@
         <RadioButton
             android:id="@+id/r5"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="35dp"
             android:text="5"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -130,7 +131,7 @@
         android:layout_alignParentBottom="true"
         android:layout_marginTop="411dp"
         android:layout_marginBottom="-6dp"
-        android:background="#F11414"
+        android:background="#304FFE"
         android:text="Send Sms"
         android:textColor="#F8F6F6"
         android:textSize="18sp" />
